@@ -1,5 +1,5 @@
 <?php
-// header('Content-Type: application/json');
+
 
 $db_username = 'admin';
 $db_password = 'root1234';
