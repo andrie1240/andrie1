@@ -11,7 +11,7 @@
 		while($row = mysqli_fetch_object($dbrecords)) {
 				
 				echo 
-					$arr = array('id' => $row->ID , 'username' => $row->Username , 'password' => $row->Password);
+					$arr = array('id' => $row->id , 'username' => $row->username , 'password' => $row->password);
 				 echo "<br/>";				
 					echo json_encode($arr);
 							}
